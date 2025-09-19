@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Sort;
-import org.springframework.data.domain.Sort.Direction;
 
 import br.com.daianegeraldino.entity.Todo;
 import br.com.daianegeraldino.repository.TodoRepository;
