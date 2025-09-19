@@ -1,4 +1,4 @@
-package br.com.daianegeraldino.entity;
+package br.com.daianegeraldino.todolist.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,7 +17,7 @@ public class Todo {
     private String descricao;
     private boolean concluido;
     private int prioridade;
-    
+
     public Long getId() {
         return id;
     }

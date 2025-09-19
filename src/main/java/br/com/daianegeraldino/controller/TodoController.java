@@ -4,8 +4,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import br.com.daianegeraldino.entity.Todo;
-import br.com.daianegeraldino.service.TodoService;
+
+import br.com.daianegeraldino.todolist.entity.Todo;
+import br.com.daianegeraldino.todolist.service.TodoService;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

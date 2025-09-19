@@ -1,12 +1,12 @@
-package br.com.daianegeraldino.service;
+package br.com.daianegeraldino.todolist.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Sort;
 
-import br.com.daianegeraldino.entity.Todo;
-import br.com.daianegeraldino.repository.TodoRepository;
+import br.com.daianegeraldino.todolist.entity.Todo;
+import br.com.daianegeraldino.todolist.repository.TodoRepository;
 
 @Service
 public class TodoService {
